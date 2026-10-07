@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-parchment: #f4eedc;
+  --color-leather: #3d2b1f;
+  --color-crimson: #8b1a1a;
+  --color-charcoal: #111111;
+  --color-brass: #ad7836;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-typewriter: "DM Mono", "Courier New", monospace;
+  --radius-none: 0;
+}
+
+:root { font-synthesis:none; text-rendering:optimizeLegibility; -webkit-font-smoothing:antialiased; }
+::selection { color:var(--color-parchment); background:var(--color-crimson); }
+:focus-visible { outline:2px solid var(--color-crimson); outline-offset:3px; }
